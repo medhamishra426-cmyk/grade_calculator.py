@@ -1,0 +1,46 @@
+Test cases for grade_calculator.py
+
+Input: 85
+Expected: B
+Actual: B - "Very good! Keep it up!”
+Result: Pass
+
+Input: 90
+Expected: A
+Actual: A-Outstanding! keep up the excellent work!”
+Result: Pass
+
+Input: 89.9
+Expected: B
+Actual: B-"Very good! Keep it up!”
+Result: Pass
+
+Input: 70
+Expected: C
+Actual: C-”Good job! Push a little harder next time.”
+Result: Pass
+
+Input: 60
+Expected: D
+Actual: D-”Passed, but there's room to grow.”
+Result: Pass
+
+Input: 59.9
+Expected: F
+Actual: F-”Don't give up.Review the topics and retry.”
+Result: Pass
+
+Input: 0
+Expected: F
+Actual: F-”Don't give up.Review the topics and retry.”
+Result: Pass
+
+Input: 100
+Expected: A
+Actual: A-”Outstanding! keep up the excellent work!”
+Result: Pass
+
+Input: 101
+Expected: Rejected, asks again
+Actual: "Marks must be between 0 and 100." then prompts for marks again
+Result: Pass
