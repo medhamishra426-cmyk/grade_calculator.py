@@ -22,7 +22,7 @@ A command-line Python program that takes a student's name and marks (0-100), val
    
 2. Enter the project folder:
    
-   cd <repo-name>
+   grade_calculator.py
    
 3. Run the program:
    
@@ -76,11 +76,3 @@ Test cases are in [test_cases.txt](test_cases.txt).
 | 101    | Rejected, asks again   |               |
 | abc    | Rejected, asks again   |               |
 
-## Screenshots
-- Valid run: screenshots/valid_run.png
-- Invalid input: screenshots/invalid_input.png
-- Boundary case (59.9): screenshots/boundary.png
-
-- Valid run: screenshots/valid_run.png
-- Invalid input: screenshots/invalid_input.png
-- Boundary case (59.9): screenshots/boundary.png
